@@ -1,4 +1,4 @@
-<h1 align="center">Text Summarizer with Streamlit</h1>
+<h1 align="center">Text summarizer with Streamlit</h1>
 
 <h2 align="center">🤖 Hi welcome to my GitHub repository! I'm The FastSummarizer and I'll show you how to implement a text summarizer on Python with a custom web application on Streamlit</h2>
 
@@ -7,11 +7,11 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/lprtk/TextSummarizer/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/lprtk/TextSummarizer"></a>
-<a href="https://github.com/lprtk/TextSummarizer/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/lprtk/TextSummarizer"></a>
-<a href="https://github.com/lprtk/TextSummarizer/stargazers"><img alt="Github Stars" src="https://img.shields.io/github/stars/lprtk/TextSummarizer"></a>
-<a href="https://github.com/lprtk/TextSummarizer/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/lprtk/TextSummarizer"></a>
-<a href="https://github.com/lprtk/TextSummarizer/"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+<a href="https://github.com/lprtk/text-summarize/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/lprtk/text-summarize"></a>
+<a href="https://github.com/lprtk/text-summarize/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/lprtk/text-summarize"></a>
+<a href="https://github.com/lprtk/text-summarize/stargazers"><img alt="Github Stars" src="https://img.shields.io/github/stars/lprtk/text-summarize"></a>
+<a href="https://github.com/lprtk/text-summarize/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/lprtk/text-summarize"></a>
+<a href="https://github.com/lprtk/text-summarize/"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
 </p>
 
 
@@ -29,18 +29,18 @@
 * [Features :computer:](#Features)
 
 
-<a id='section01'></a>
+<a id="section01"></a>
 
 ## Overview
 
 <p align="justify">Impact Summarization systems often have additional evidence they can utilize in order to specify the most important topics of document(s). In scientific paper summarization, there is a considerable amount of information such as cited papers and conference information which can be leveraged to identify important sentences in the original paper.</p>
 
 
-<a id='section02'></a>
+<a id="section02"></a>
 
 ## Context
 
-<a id='section02a'></a>
+<a id="section02a"></a>
 
  ### Text summarization
 
@@ -80,7 +80,7 @@ Next, Below is our code flow to generate summarize text.
 Input article → split into sentences → remove stop words → build a similarity matrix → generate rank based on matrix → pick top N sentences for summary.
 ```
 
-<a id='section02b'></a>
+<a id="section02b"></a>
 
 ### Web Application
 
@@ -105,7 +105,7 @@ Below is how we store the passwords of users using our platform.
 </p>
 
 
-<a id='section03'></a>
+<a id="section03"></a>
 
 ## Requirements
 * **Python version 3.9.7**
@@ -132,7 +132,7 @@ from sqlite3 import connect
 ```
 
 
-<a id='section04'></a>
+<a id="section04"></a>
 
 ## File details
 * **requirements**
@@ -177,7 +177,7 @@ Here is the project pattern:
 ```
 
 
-<a id='section05'></a>
+<a id="section05"></a>
 
 ## Quickstart
 
@@ -211,7 +211,7 @@ Here is the project pattern:
     * Don't forget to logout you :wink:
 
 
-<a id='section06'></a>
+<a id="section06"></a>
 
 ## Demonstration
 
@@ -241,7 +241,7 @@ This project was realized by [me](https://github.com/lprtk) in the context of an
 * Implemented a system of rights management / "secure" connection to the application (LogIn, LogOut, forgot password, change password or delete account functionalities).
 
 
-<a id='section08'></a>
+<a id="section08"></a>
 ## Features
 
 <p align="center">
